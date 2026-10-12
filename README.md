@@ -1,51 +1,6 @@
-![Bruce Main Menu](./media/pictures/bruce_banner.jpg)
+Bruce
 
-# :shark: Bruce
-
-Bruce is a versatile ESP32 firmware packed with offensive-security tools, built to make Red Team operations fast and portable.
-
-It also supports [M5Stack](https://shop.m5stack.com), [LILYGO](https://lilygo.cc) , [RockBase IoT](https://www.rockbaseiot.com) and [Elecrow](https://www.elecrow.com) products, and works great with the Cardputer, Sticks, M5Cores, T-Decks and T-Embeds.
-
-## :zap: Get Our Official DevKit!
-
-# RF REAPER
-
-**RF REAPER** is our custom PCB devkit, purpose-built for Bruce!
-
-Every major feature works natively, right out of the box. Sub-GHz, NFC/RFID, IR, 2.4GHz(NRF), GPS-ready, and a microSD, all driven by a beefy ESP32-S3 (16MB Flash / 8MB PSRAM). Tons of GPIOs via the AW9523 expander plus Flipper Zero & iButton header compatibility mean you can hack, mod, and build on it endlessly. Want a specific function? Ask us with an issue, we'll check it.
-
-👉 **[Buy the RF REAPER and official boards](https://shop.bruce.computer)**
-
-**Check our fully open-source hardware too:** https://bruce.computer/boards
-
-More custom devkit boards coming soon! Stay across our communities!
-
-## :building_construction: How to install
-
-### The easiest way to install Bruce is using our official Web Flasher!
-
-### Check out: https://bruce.computer/flasher
-
-Alternatively, you can download the latest binary from releases or actions and flash locally using esptool.py
-
-```sh
-esptool.py --port /dev/ttyACM0 write_flash 0x00000 Bruce-<device>.bin
-```
-
-**For m5stack devices**
-
-If you already use M5Launcher to manage your m5stack device, you can install it with OTA
-
-Or you can burn it directly from the [m5burner tool](https://docs.m5stack.com/en/download), just search for 'Bruce' (My official builds will be uploaded by "owner" and have photos.) on the device category you want to and click on burn
-
-## :keyboard: Discord Server
-
-Contact us in our [Discord Server](https://discord.gg/WJ9XF9czVT)!
-
-## :bookmark_tabs: Wiki
-
-For more information on each function supported by Bruce, [read our wiki here](https://wiki.bruce.computer/).
-Also, [read our FAQ](https://wiki.bruce.computer/faq/)
+Modified for usage with 48pin ESP32-S3-DevKitC1 and other goodies, use boards/smoochiee-board
 
 ## :computer: List of Features
 
