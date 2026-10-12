@@ -1,6 +1,10 @@
-Bruce
+## Bruce
 
 Modified for usage with 48pin ESP32-S3-DevKitC1 and other goodies, use boards/smoochiee-board
+This is solely for personal usage, I'm not trying to steal anything I just want to keep a repository up for modification between multiple computers.
+
+![esp32-s3 devkitc1 pinout, 48pin](./media/pictures/esp32pinoutexample.jpg)
+# This is an example pinout for a 48 pin esp32-s3. This is what my pinout is based off of, dual USB-C board.
 
 ## :computer: List of Features
 
@@ -230,6 +234,7 @@ Other media can be [found here](./media/).
 - @pablonymous RF functions to read RAW Data
 - [Smoochiee](https://github.com/smoochiee) for Bruce PCB design.
 - TH3_KR4K3N for Stick cplus extender PCB design.
+- [@BruceDevices](https://github.com/BruceDevices) for basically all of the software, I just ported it to my own usage
 - Everyone who contributed in some way to the project, thanks :heart:
 
 Bruce also stands on the shoulders of other great open-source firmware projects,
